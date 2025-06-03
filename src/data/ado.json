@@ -3,30 +3,30 @@
     "id": 1,
     "titulo": "Usseewa",
     "desc": "Una crítica social potente que expresa la frustración hacia las normas y estructuras impuestas por la sociedad.",
-    "imgsrc": "/images/ado/usseewa.jpg"
+    "imgsrc": "./src/assets/img/usseewa.png"
   },
   {
     "id": 2,
     "titulo": "Odo",
     "desc": "Una explosión de libertad juvenil y rebeldía, invitando a bailar y romper con las cadenas del conformismo.",
-    "imgsrc": "/images/ado/odo.jpg"
+    "imgsrc": "./src/assets/img/odo.png"
   },
   {
     "id": 3,
     "titulo": "Gira Gira",
     "desc": "Una canción sobre la constante lucha interna entre la luz y la oscuridad dentro del ser humano.",
-    "imgsrc": "/images/ado/giragira.jpg"
+    "imgsrc": "./src/assets/img/giragira.png"
   },
   {
     "id": 4,
     "titulo": "Ashura-chan",
     "desc": "Explora la dualidad emocional de la protagonista, comparándola con una deidad de múltiples brazos que lucha en su mundo interior.",
-    "imgsrc": "/images/ado/ashura.jpg"
+    "imgsrc": "./src/assets/img/asura.png"
   },
   {
     "id": 5,
     "titulo": "Show",
     "desc": "Un tema enérgico que representa el acto de enfrentarse al mundo con valentía como si estuvieras en un escenario.",
-    "imgsrc": "/images/ado/show.jpg"
+    "imgsrc": "./src/assets/img/"
   }
 ]
