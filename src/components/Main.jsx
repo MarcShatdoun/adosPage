@@ -9,7 +9,7 @@ export default function Main() {
         <>
             <main>
                 <h1>Catalogo canciones de ADO</h1>
-                <div className="grid grid-cols-3 gap-4 grid-sm:grid-cols-1">
+                <div className="grid grid-cols-3 gap-4 sm:grid-cols-1">
                     {data.map((song) => (
                     <SongCard key={song.id} song={song} />
                     ))}

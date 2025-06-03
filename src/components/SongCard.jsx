@@ -2,14 +2,16 @@ import React from 'react';
 
 const SongCard = ({ song }) => {
   return (
-    <div className="border p-4 rounded-lg shadow hover:shadow-md transition">
+    <div className="border p-4 rounded-lg shadow hover:shadow-md transition sm:flex ">
       <img
         src={song.imgsrc}
         alt={song.titulo}
-        className="w-full h-48 object-cover rounded mb-2"
+        className="w-full h-48 object-cover rounded-3xl mb-2 p-4"
       />
-      <h2 className="text-lg font-semibold">{song.titulo}</h2>
-      <p className="text-sm text-gray-600">{song.desc}</p>
+      <div>
+        <h2 className="text-lg font-semibold">{song.titulo}</h2>
+        <p className="text-sm text-gray-600">{song.desc}</p>
+      </div>
     </div>
   );
 };
