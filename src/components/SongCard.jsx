@@ -2,7 +2,7 @@ import React from 'react';
 
 const SongCard = ({ song }) => {
   return (
-    <div className="border p-4 rounded-lg shadow hover:shadow-md transition sm:flex ">
+    <article className="border p-4 rounded-lg shadow hover:shadow-md transition sm:flex ">
       <img
         src={song.imgsrc}
         alt={song.titulo}
@@ -12,7 +12,7 @@ const SongCard = ({ song }) => {
         <h2 className="text-lg font-semibold">{song.titulo}</h2>
         <p className="text-sm text-gray-600">{song.desc}</p>
       </div>
-    </div>
+    </article>
   );
 };
 

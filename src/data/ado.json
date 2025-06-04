@@ -27,6 +27,12 @@
     "id": 5,
     "titulo": "Show",
     "desc": "Un tema enérgico que representa el acto de enfrentarse al mundo con valentía como si estuvieras en un escenario.",
-    "imgsrc": "./src/assets/img/"
+    "imgsrc": "./src/assets/img/show.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Elf",
+    "desc": "Un tema enérgico que representa el acto de enfrentarse al mundo con valentía como si estuvieras en un escenario.",
+    "imgsrc": "./src/assets/img/elf.webp"
   }
 ]
