@@ -10,7 +10,7 @@ const SongCard = ({ song }) => {
       />
       <div>
         <h2 className="text-lg font-semibold">{song.titulo}</h2>
-        <p className="text-sm text-gray-600">{song.desc}</p>
+        <p className="text-xs text-gray-600">{song.desc}</p>
       </div>
     </article>
   );
