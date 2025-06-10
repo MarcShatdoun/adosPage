@@ -4,10 +4,10 @@ import Jpflag from '../assets/icons/flag_japan.svg'
 const Hero = () => {
     return (
         <section className='max-w-[70rem] mx-auto'>
-         <h1 className='text-4xl text-center'>Quien es ado?</h1>
+         <h1 className='text-4xl text-center font-bold pt-2'>Quien es ado?</h1>
          <div className="w-full h-auto my-2 bg-[#1B1B1D] flex justify-center items-center lg:flex-row flex-col">
             <div className='flex  w-1/2 py-8 '>
-                <img className='rounded-lg w-44 md:w-4/6 xl:w-3/4 pl-4 ' src="./src/assets/img/adopic.webp" alt="" />
+                <img className='rounded-lg w-44 md:w-4/6 xl:w-3/4 pl-4 lg:pl-24' src="./src/assets/img/adopic.webp" alt="" />
             </div>
             <div className=' w-1/2'>
                 <div className='flex flex-col mb-8 gap-1 text-xs md:text-xl lg:text-lg lg:mb-12 '>
